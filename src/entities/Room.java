@@ -8,7 +8,7 @@ public class Room {
 	
 	
 	public Room(int id, String owner, String email) {
-		this.id = id;
+		this.id = id + 1;
 		this.owner = owner;
 		this.email = email;
 	}
